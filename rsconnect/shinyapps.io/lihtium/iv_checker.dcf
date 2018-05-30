@@ -1,0 +1,10 @@
+name: iv_checker
+title:
+username:
+account: lihtium
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 351363
+bundleId: 1401211
+url: https://lihtium.shinyapps.io/iv_checker/
+when: 1527709128.57914
