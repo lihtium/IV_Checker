@@ -53,8 +53,8 @@ server <- function(input, output) {
   library(tidyverse)
   library(stringr)
   
-  CPM<-read.csv("./data/CPM.csv",sep=";",dec=",",header=T)
-  base_stats <- read.csv("./data/Pokemon_go_CP_list.csv",sep=",",dec=".",header=T,encoding="UTF-8")
+  CPM<-read.csv("~/IV_Checker/www/CPM.csv",sep=";",dec=",",header=T)
+  base_stats <- read.csv("~/IV_Checker/www/Pokemon_go_CP_list.csv",sep=",",dec=".",header=T,encoding="UTF-8")
   base_stats <- base_stats %>% arrange(id)
   
   CP_GO<-function(name,level,iv=c(15,15,15)){
